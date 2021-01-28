@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        div#MainWrapper {
+    border: 2px solid;
+    overflow: auto;
+}
+header {
+    border: 2px solid red;
+    text-align: center;
+    margin: 5px;
+    height: 100px;
+}
+nav {
+    border: 2px solid blue;
+    margin: 5px;
+    text-align: center;
+    height: 100px;
+}section {
+    width: 650px;
+    border: 2px solid yellow;
+    text-align: center;
+    margin: 5px;
+    height: 65px;
+}
+div#middleDiv {
+    width: 686px;
+    border: 1px solid;
+    float: left;
+    height: 150px;
+    margin: 5px;
+}
+article {
+    border: 2px solid red;
+    margin: 5px;
+    width: 650px;
+    text-align: center;
+    height: 65px;
+}
+aside {
+    border: 2px solid red;
+    width: 640px;
+    margin: 5px;
+    float: right;
+    height: 150px;
+}
+footer {
+    border: 2px solid blue;
+    margin: 5px;
+    float: right;
+    width: 1440px;
+    text-align: center;
+    height: 50px;
+}
+    </style>
+</head>
+<body>
+    <div id="MainWrapper">
+        <header>Header</header>
+        <nav>NavBar</nav>
+        <div id="middleDiv">
+            <section>Section</section>
+            <article>Article</article>
+        </div>
+        
+        <aside>Aside</aside>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
